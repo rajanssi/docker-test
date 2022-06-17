@@ -54,7 +54,7 @@ app.use(function (err, req, res, next) {
   res.status(500).send('<h1>Internal Server Error</h1>');
 });
 
-const server = app.listen(process.env.PORT || 3000, () => {
+const server = app.listen(process.env.PORT || 8080, () => {
   console.log(`chucknorris server started on port: ${server.address().port}`);
 });
 
