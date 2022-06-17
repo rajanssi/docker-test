@@ -1,3 +1,3 @@
 # docker-test
 
-test ppush
+test push
